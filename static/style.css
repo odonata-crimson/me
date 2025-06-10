@@ -113,7 +113,7 @@
         opacity: 90%;
         width: 20rem;
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.385);
-        border-radius: 0.5rem;
+        border-radius: 100%;
     }
     .wish{
         text-align: center;
