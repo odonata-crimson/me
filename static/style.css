@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Lato:wght@100;300;900&family=Nunito+Sans:opsz,wght@6..12,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Lato:wght@100;300;400;500;600;900&family=Nunito+Sans:opsz,wght@6..12,300&display=swap');
     ::-webkit-scrollbar{
         display: none;
     }
@@ -6,6 +6,7 @@
         padding: 0;
         margin: 0;
         text-shadow: 0px 0px 20px black;
+        font-weight: 300;
     }
     body{
         background-color: rgb(14, 14, 14);
@@ -13,6 +14,12 @@
     .circle{
         position: fixed;
         border-radius: 100%;
+    }
+    a{
+        color: white;
+    }
+    b{
+        font-weight: 500;
     }
     .c1{
         left: auto;
@@ -54,6 +61,7 @@
         text-shadow: 0px 0px 20px black;
         position: relative;
         width: 40%;
+        height: 100vh;
     }
     .leftText{
         position: relative;
@@ -124,7 +132,7 @@
     }
     .txt{
         font-family: Lato;
-        margin-top: -3.5rem;
+        margin-top: -2rem;
         padding: 1.5rem;
         font-size: 1.2rem;
         color: rgba(255, 255, 255, 0.871);
@@ -148,6 +156,7 @@
     .divider{
         margin-top: -3.5rem;
         height: 10rem;
+        margin-bottom: -2rem;
     }
     .divdr1{
         position: relative;
@@ -157,12 +166,59 @@
         border: 0.2px solid rgba(255, 255, 255, 0.611);
     }
     .icon{
-        width: 3rem;
+        width: 50px;
     }
     .contents{
+        height: 50px;
+        line-height: 50px;
         color: white;
         display: flex;
         flex-direction: row;
         font-family: lato;
         vertical-align: middle;
+        margin-bottom: 1rem;
     }
+    .imageholder{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 2rem;
+    }
+    .imgtemp{
+        text-align: center;
+        color: white;
+        font-family: lato;
+    }
+    .gallimg{
+        width: 20rem;
+        border-radius: 0.5rem;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.385);
+        margin-bottom: 0.5rem;
+        transition: 0.2s;
+    }
+    .card{
+        display: flex;
+        flex-direction: row;
+    }
+    .card img{
+        height: 15rem;
+        border-radius: 0.5rem;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.385);
+    }
+    .card hr{
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        width: 9rem;
+    }
+    .card p{
+        font-size: 1.5rem;
+        font-weight: 600;
+        letter-spacing: 0.1rem;
+    }
+    .card .txt{
+        padding-top: 2.5rem;
+        text-align: justify;
+    }
+    /* .gallimg:hover{
+        transform: scale(1.25);
+        box-shadow: 0px 0px 50px rgb(0, 0, 0);
+    } */
