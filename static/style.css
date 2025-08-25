@@ -114,7 +114,7 @@
         margin-top: 1rem;
         font-size: 1rem;
         color: rgb(228, 228, 228);
-        font-family: JetBrains Mono;
+        font-family: monospace;
         text-align: center;
     }
     .picHolder{
@@ -179,7 +179,7 @@
         color: white;
         display: flex;
         flex-direction: row;
-        font-family: lato;
+        font-family: JetBrains Mono;
         vertical-align: middle;
         margin-bottom: 1rem;
     }
@@ -286,4 +286,5 @@
         display: none; /* Hide element on mobile */
     }
 }
+
 
