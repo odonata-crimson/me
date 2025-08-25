@@ -136,7 +136,7 @@
         color: rgba(255, 255, 255, 0.802);
     }
     .txt{
-        font-family: JetBrains Mono;
+        font-family: lato;
         margin-top: -2rem;
         padding: 1.5rem;
         font-size: 1.2rem;
@@ -179,7 +179,7 @@
         color: white;
         display: flex;
         flex-direction: row;
-        font-family: JetBrains Mono;
+        font-family: lato;
         vertical-align: middle;
         margin-bottom: 1rem;
     }
@@ -286,6 +286,7 @@
         display: none; /* Hide element on mobile */
     }
 }
+
 
 
 
